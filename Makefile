@@ -6,7 +6,7 @@
 #    By: obounri <obounri@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/14 16:20:43 by obounri           #+#    #+#              #
-#    Updated: 2021/06/14 16:39:06 by obounri          ###   ########.fr        #
+#    Updated: 2021/06/17 15:33:23 by obounri          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,8 +36,7 @@ $(LIBFT): $(LIBFT_SRCS)
 clean:
 	make -C $(LIBFT_MAKEFILE_PATH) clean
 
-fclean:
-	rm -f $(PROG1) $(PROG2)
-	make -C $(LIBFT_MAKEFILE_PATH) fclean
+fclean: clean
+	rm -f $(PROG1) $(PROG2) $(LIBFT)
 
 re: fclean all

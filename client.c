@@ -6,11 +6,14 @@
 /*   By: obounri <obounri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/14 16:23:14 by obounri           #+#    #+#             */
-/*   Updated: 2021/06/15 18:18:08 by obounri          ###   ########.fr       */
+/*   Updated: 2021/06/17 15:34:23 by obounri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/minitalk.h"
+#include <stdio.h> //
+#include <unistd.h>
+#include <signal.h>
+#include "srcs/libft/libft.h"
 
 int encode(char *mess, int pid)
 {
