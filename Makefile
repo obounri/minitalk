@@ -6,7 +6,7 @@
 #    By: obounri <obounri@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/14 16:20:43 by obounri           #+#    #+#              #
-#    Updated: 2021/06/17 15:33:23 by obounri          ###   ########.fr        #
+#    Updated: 2021/06/17 17:07:01 by obounri          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ HEADER = includes/minitalk.h
 PROG1 = client
 PROG2 = server
 
-SRCS = 
+SRCS = srcs/utils.c
 
 LIBFT_MAKEFILE_PATH = srcs/libft/ 
 LIBFT = srcs/libft/libft.a
